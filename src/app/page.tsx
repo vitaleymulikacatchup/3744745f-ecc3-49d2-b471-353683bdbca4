@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
@@ -324,7 +324,7 @@ export default function LandingPage() {
                 { label: "Allergen Info", href: "#" }
               ]
             }
-          ]}
+          ]
         />
       </div>
     </ThemeProvider>
